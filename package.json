@@ -1,0 +1,36 @@
+{
+  "name": "physical-redis",
+  "version": "0.1.0",
+  "description": "Physical module for testing downstream dependency on Redis",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ioredis": "^3.1.4",
+    "jasmine": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garymcleanhall/physical-redis.git"
+  },
+  "keywords": [
+    "physical",
+    "module",
+    "redis",
+    "cache",
+    "healthcheck",
+    "heartbeat",
+    "status"
+  ],
+  "author": "Gary McLean Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garymcleanhall/physical-redis/issues"
+  },
+  "homepage": "https://github.com/garymcleanhall/physical-redis#readme"
+}
